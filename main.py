@@ -1,6 +1,9 @@
-from map import Map
+from src.interface.terminal_controller import TerminalController
 
+terminal = TerminalController()
+terminal.configure_game()
 
-map = Map(10, 10, 10)
-
-map.print()
+while not terminal.is_game_over():
+    terminal.run_game()
+else:
+    terminal.end_game()
