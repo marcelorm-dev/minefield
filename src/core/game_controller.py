@@ -1,4 +1,4 @@
-from src.map import Map
+from src.core.map import Map
 
 class GameController:
 

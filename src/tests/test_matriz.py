@@ -1,5 +1,5 @@
-from src.utils.matriz import Matriz
-import unittest
+import unittest 
+from src.core.matriz import Matriz
 
 class MatrizUnitTest(unittest.TestCase):
 

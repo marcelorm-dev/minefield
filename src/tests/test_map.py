@@ -1,5 +1,6 @@
-from src.map import Map
 import unittest
+from src.core.map import Map
+
 
 class MapTest(unittest.TestCase):
     

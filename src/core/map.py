@@ -1,6 +1,6 @@
-from src.field import Field
-from src.utils.matriz import Matriz
 import random
+from src.core.field import Field
+from src.core.matriz import Matriz
 
 class Map:
 

@@ -1,6 +1,6 @@
 import os
-from src.map import Map
-from src.game_controller import GameController
+from src.core.game_controller import GameController
+from src.core.map import Map
 
 class TerminalController:
 
